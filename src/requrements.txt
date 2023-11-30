@@ -1,0 +1,30 @@
+
+1. Tasklist with status, mark complete, delete and edit button 
+2. form to add new task 
+   task = {
+     name : task 1, 
+     description : complete the assignment
+     priority level ; low, medium high
+   }
+   validation that task name is required
+3. All task button
+4. New task button
+5. Edit task button
+6. Routing for different task pages
+7. Context for state management
+8. Save tasks in localstorage
+
+Optional
+1. Sort the task based on priority or completion.
+2. Pagination for the task list.
+3. Adding due dates to tasks.
+
+
+{lefthidebutton && (
+            <HiOutlineMenuAlt4
+            className='text-[25px] cursor-pointer h-[50px]'
+            onClick={() => {
+                console.log('Clicked left button');
+                setNavleft(!navleft);}}
+            />
+        )}
